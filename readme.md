@@ -13,9 +13,11 @@
 .cache
 dist
 node_modules
+10. "start": "parcel public/index.html -p <port number>" 修改端口
 
 参考：https://segmentfault.com/a/1190000012327384
 
 
-待解决：打包相对路径问题
-build未解决
+待解决：
+1. 打包相对路径问题
+2. 配置less环境

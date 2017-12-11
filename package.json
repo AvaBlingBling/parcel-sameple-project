@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel public/index.html",
+    "start": "parcel public/index.html -p 1000",
     "build": "parcel build public/index.html --no-minify"
   },
   "repository": {
@@ -24,11 +24,14 @@
   },
   "homepage": "https://github.com/AvaBlingBling/parcel-sameple-project#readme",
   "dependencies": {
+    "autoprefixer": "^7.2.2",
+    "parcel-bundler": "^1.1.0",
+    "postcss-less-engine": "^0.6.2",
+    "postcss-modules": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.1.0"
+    "babel-preset-react": "^6.24.1"
   }
 }
