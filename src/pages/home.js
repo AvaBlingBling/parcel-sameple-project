@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// import './style.less';
+
 export default class Home extends Component {
   constructor(props) {
     super(props);
@@ -8,8 +10,9 @@ export default class Home extends Component {
   }
   render() {
     return (
-      <div className="test" style={{ height: '700px', marginTop: '0px', padding: '20px' }}>
-        建设中。。。
+      <div className="home" style={{ height: '700px', marginTop: '0px', padding: '20px' }}>
+        <p>建设中。。。</p>
+        <p>建设中。。。</p>
       </div>
     );
   }

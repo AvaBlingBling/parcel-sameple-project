@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.html",
-    "build": "parcel build src/index.js --no-minify"
-    // "build": "parcel build src/index.js -d build/output --no-minify"
+    "build": "parcel build public/index.html --no-minify"
   },
   "repository": {
     "type": "git",
