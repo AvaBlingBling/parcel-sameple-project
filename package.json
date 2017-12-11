@@ -1,0 +1,34 @@
+{
+  "name": "parcel-sameple-project",
+  "version": "1.0.0",
+  "description": "created by zhouye",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel public/index.html",
+    "build": "parcel build src/index.js -d build/output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvaBlingBling/parcel-sameple-project.git"
+  },
+  "keywords": [
+    "parcel",
+    "react",
+    "antd"
+  ],
+  "author": "zhouye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvaBlingBling/parcel-sameple-project/issues"
+  },
+  "homepage": "https://github.com/AvaBlingBling/parcel-sameple-project#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.1.0"
+  }
+}
